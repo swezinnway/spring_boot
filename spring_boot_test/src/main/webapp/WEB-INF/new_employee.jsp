@@ -24,8 +24,8 @@ PhoneNo:<form:input path="phoneno" /><br>
 
 Address:<form:input path="address" /><br>
 `
-Gender:<form:input type="radio" path="gender"  /> Male 
- <form:input type="radio" path="gender" />Female
+
+Gender:<form:radiobutton path="gender" value="Male"/>Male<form:radiobutton path="gender" value="Femal"/>Female<br>
  
 <input type="submit" value="Register" />
 

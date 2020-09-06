@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<table>
+<table width = "300" border = "1" cellspacing="2" style="border: solid;">
 	<thead>
 		<tr>
 			<th>Name</th>
-			<th>Email</th>
+		 	<th>Email</th>
 			<th>Age</th>
 			<th>PoneNo</th>
 			<th>Address</th>
