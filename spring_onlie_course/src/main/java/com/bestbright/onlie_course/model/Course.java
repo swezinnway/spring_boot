@@ -21,7 +21,7 @@ public class Course implements Serializable {
 	private Long course_id;
 	private String course_name;
 	private String course_description;
-	private String photopath;
+	
 	
 	@OneToMany(mappedBy = "course",targetEntity=Level.class,cascade = CascadeType.ALL)
 
@@ -76,16 +76,6 @@ public class Course implements Serializable {
 
 
 
-	public String getPhotopath() {
-		return photopath;
-	}
-
-
-
-	public void setPhotopath(String photopath) {
-		this.photopath = photopath;
-	}
-	
 	
 	
 

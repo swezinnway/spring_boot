@@ -25,7 +25,7 @@ public class CourseService implements CourseInterface {
 		Course cour=new Course();
 		cour.setCourse_name(dto.getCourse_name());
 		cour.setCourse_description(dto.getCourse_description());
-		cour.setPhotopath(dto.getPhotopath());
+		
 		return cour;
 	}
 }
